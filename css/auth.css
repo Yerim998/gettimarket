@@ -1,0 +1,96 @@
+@import url(reset.css);
+@import url(font.css);
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.login-container {
+  display: flex;
+  width: 70%;
+  min-width: 600px;
+  height: 50vh;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.login-left {
+  flex: 1;
+  background-color: #ffe2a8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.login-right {
+  flex: 1;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.login-form input {
+  padding: 16px;
+  border: 2px solid #adc5f6;
+  border-radius: 12px;
+  font-size: 14px;
+  outline: none;
+}
+
+.btn {
+  padding: 14px;
+  font-size: 15px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.login {
+  background-color: #adc5f6;
+  color: white;
+  font-weight: bold;
+}
+
+.join {
+  background-color: #e7edff;
+  color: #4d6ebd;
+}
+
+.find-info {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 13px;
+  color: #999;
+}
+
+.find-info a {
+  color: #999;
+  text-decoration: none;
+  margin: 0 4px;
+}

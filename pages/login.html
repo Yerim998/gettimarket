@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Getti - 로그인</title>
+    <link rel="stylesheet" href="../css/auth.css" />
+    <link rel="stylesheet" href="..css/footer.css" />
+    <link rel="stylesheet" href="..css/header.css" />
+  </head>
+  <body>
+    <div id="header-container"></div>
+
+    <main>
+      <h1 class="sr-only">로그인</h1>
+      <div class="login-container">
+        <div class="login-left">
+          <img src="../images/getti_login_image.svg" alt="getti 로그인" />
+        </div>
+
+        <!-- 오른쪽 로그인 폼 -->
+        <div class="login-right">
+          <form class="login-form">
+            <input type="text" placeholder="아이디" required />
+            <input type="password" placeholder="비밀번호" required />
+
+            <button type="submit" class="btn login">로그인</button>
+            <button type="button" class="btn join">회원가입</button>
+
+            <div class="find-info">
+              <a href="#">아이디</a> | <a href="#">비밀번호 찾기</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <!-- 푸터 container: 푸터가 들어올 자리 -->
+    <div id="footer-container"></div>
+
+    <!-- 공통 스크립트 -->
+    <script src="..js/utils.js"></script>
+    <!-- 페이지별 스크립트 -->
+    <script src="..js/login.js"></script>
+  </body>
+</html>
