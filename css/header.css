@@ -13,6 +13,7 @@ body {
   justify-content: space-between;
   padding: 24px 60px;
   border-bottom: 1px solid #eee;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 .logo {
