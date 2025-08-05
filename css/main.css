@@ -5,9 +5,14 @@ body {
   color: #333;
 }
 
-.main-banner img {
+.main-banner {
   width: 100%;
-  display: block;
+	height: 422px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url(../images/article_main_2000.png);
+  /* display: block; */
 }
 
 .popular-products {
