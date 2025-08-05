@@ -107,3 +107,129 @@ main {
   text-decoration: none;
   margin: 0 4px;
 }
+
+/* 회원가입 */
+
+.signup-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 36px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-container img {
+  width: 150px;
+  margin-bottom: 18px;
+}
+
+.welcome-msg {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 32px;
+  border-top: 1px solid #f0b03e;
+  padding-top: 12px;
+}
+
+.signup-form .input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #7d9ded;
+  margin-bottom: 6px;
+}
+
+
+.input-group input,
+.input-group select {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  border: 2px solid #adc5f6;
+  border-radius: 12px;
+  outline: none;
+  background-color: #fff;
+}
+
+.id-row {
+  display: flex;
+  gap: 8px;
+}
+
+.id-row input {
+  flex: 1;
+}
+
+.check-btn {
+  padding: 14px;
+  border: none;
+  background-color: #8faaed;
+  color: #fff;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.check-btn:hover {
+	background-color: #809ee3;
+}
+
+.email-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.email-row input {
+  width: 40%;
+}
+
+.email-row .at {
+  font-size: 16px;
+}
+
+.email-row select {
+  flex: 1;
+  padding: 14px;
+  font-size: 14px;
+  border: 2px solid #adc5f6;
+  border-radius: 12px;
+}
+
+.birth-row {
+  display: flex;
+  gap: 8px;
+}
+
+.birth-row input,
+.birth-row select {
+  flex: 1;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 16px;
+  margin-top: 24px;
+  background-color: #fcb400;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;}
+
+	.submit-btn:hover {
+		background-color: #d49905;
+	}

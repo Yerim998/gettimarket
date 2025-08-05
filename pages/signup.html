@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Getti - 회원 가입</title>
+    <link rel="stylesheet" href="../css/auth.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+  </head>
+  <body>
+    <div id="header-container"></div>
+
+    <main>
+      <div class="signup-container">
+        <img src="../images/Getti_logo.svg" alt="getti 로고" />
+        <p class="welcome-msg">취미가 쉬워지는 게티에 오신 걸 환영합니다 :D</p>
+
+        <form class="signup-form">
+          <!-- ID -->
+          <div class="input-group">
+            <label for="id">ID</label>
+            <div class="id-row">
+              <input
+                type="text"
+                id="id"
+                placeholder="사용하실 아이디를 입력하세요." />
+              <button type="button" class="check-btn">중복 확인</button>
+            </div>
+          </div>
+
+          <!-- PW -->
+          <div class="input-group">
+            <label for="pw">PW</label>
+            <input
+              type="password"
+              id="pw"
+              placeholder="8~20자 영어 대소문자, 숫자, 특수 문자" />
+          </div>
+
+          <!-- PW 확인 -->
+          <div class="input-group input-pw">
+            <label for="pw2">PW 확인</label>
+            <input type="password" id="pw2" placeholder="비밀번호 재입력" />
+          </div>
+
+          <!-- 이메일 -->
+          <div class="input-group">
+            <label>이메일</label>
+            <div class="email-row">
+              <input type="text" placeholder="example" />
+              <span class="at">@</span>
+              <select>
+                <option>naver.com</option>
+                <option>gmail.com</option>
+                <option>daum.net</option>
+                <option>직접 입력</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- 생년월일 -->
+          <div class="input-group">
+            <label>생년월일</label>
+            <div class="birth-row">
+              <input type="text" placeholder="연도" />
+              <select>
+                <option>월</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+              </select>
+              <select>
+                <option>일</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+              </select>
+            </div>
+          </div>
+
+          <button type="submit" class="submit-btn">가입하기</button>
+        </form>
+      </div>
+    </main>
+    <!-- 푸터 container: 푸터가 들어올 자리 -->
+    <div id="footer-container"></div>
+
+    <!-- 공통 스크립트 -->
+    <script src="../js/utils.js"></script>
+  </body>
+</html>
