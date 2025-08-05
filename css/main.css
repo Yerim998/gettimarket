@@ -7,12 +7,26 @@ body {
 
 .main-banner {
   width: 100%;
-	height: 422px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-image: url(../images/article_main_2000.png);
-  /* display: block; */
+  height: 30vh;
+  position: relative;
+  background: url(../images/article_main_2000.png),
+    linear-gradient(#ffd06a, #ffeaba);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.main-bar {
+  position: absolute;
+  width: 100px;
+  height: 10px;
+  background-image: url(../images/article_bar.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 95%;
+  left: 50%;
+  transform: translateY(-50%);
 }
 
 .popular-products {
