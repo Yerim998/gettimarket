@@ -1,10 +1,7 @@
 @import url(reset.css);
 @import url(font.css);
 
-
-
 .nav-login {
-
   box-shadow: 0px 1px 5px #555;
 
   display: flex;
@@ -12,7 +9,6 @@
   justify-content: space-between;
   padding: 24px 60px;
   border-bottom: 1px solid #eee;
-  font-family: "Noto Sans KR", sans-serif;
 }
 
 .logo {

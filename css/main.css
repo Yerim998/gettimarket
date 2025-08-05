@@ -1,6 +1,8 @@
+@import url(reset.css);
+@import url(font.css);
+
 body {
   margin: 0;
-  font-family: "Noto Sans KR", sans-serif;
   background: #fff;
   color: #333;
 }
@@ -29,13 +31,15 @@ body {
   transform: translateY(-50%);
 }
 
-.popular-products {
+.popular-products,
+.new-products {
   padding: 100px;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.popular-products h2 {
+.popular-products > h2,
+.new-products > h2 {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 60px;
@@ -60,14 +64,14 @@ body {
 }
 
 .product-card h3 {
-  margin: 6px 0 6px;
+  margin: 8px 0 8px;
   font-weight: bold;
   font-size: 20px;
 }
 
 .product-card p {
   font-size: 13px;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 .tags {
