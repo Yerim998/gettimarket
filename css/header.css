@@ -1,0 +1,55 @@
+@import url(reset.css);
+@import url(font.css);
+
+.nav-login {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 60px;
+  border-bottom: 1px solid #eee;
+}
+
+.logo img {
+  width: 120px;
+}
+
+.search-bar {
+  flex: 1;
+  display: flex;
+  margin: 0 24px;
+  min-width: 300px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid #ccc;
+  border-left: none;
+  border-radius: 0px 8px 8px 0px;
+  font-size: 14px;
+  outline: none;
+}
+
+.search-bar img {
+  border: 2px solid #ccc;
+  border-right: none;
+  border-radius: 8px 0px 0px 8px;
+  padding: 0px 0px 0px 16px;
+  cursor: pointer;
+}
+
+.nav-menu-login {
+  margin-left: 24px;
+  font-size: 16px;
+}
+
+.nav-menu-login ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.nav-menu-login ul > li > a {
+  text-decoration-line: none;
+}
