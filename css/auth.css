@@ -13,12 +13,16 @@
   border: 0;
 }
 
+main {
+  justify-items: center;
+}
+
 .login-container {
   display: flex;
-  width: 70%;
-  min-width: 600px;
-  height: 50vh;
-  margin: 0 auto;
+  width: 70vw;
+  max-width: 900px;
+  height: 60vh;
+  margin: 120px 0px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-radius: 24px;
   overflow: hidden;
@@ -44,7 +48,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40px;
+  /* padding: 40px; */
 }
 
 .login-form {
@@ -52,12 +56,13 @@
   max-width: 320px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 18px;
+  padding: 36px;
 }
 
 .login-form input {
   padding: 16px;
-  border: 2px solid #adc5f6;
+  border: 2px solid #8faaed;
   border-radius: 12px;
   font-size: 14px;
   outline: none;
@@ -71,15 +76,23 @@
   cursor: pointer;
 }
 
+.submit-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 16px;
+}
+
 .login {
-  background-color: #adc5f6;
+  background-color: #8faaed;
   color: white;
   font-weight: bold;
 }
 
 .join {
-  background-color: #e7edff;
+  background-color: #c7d7ff;
   color: #4d6ebd;
+  font-weight: bold;
 }
 
 .find-info {

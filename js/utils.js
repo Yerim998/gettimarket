@@ -3,7 +3,7 @@ async function loadHeader() {
   // 비동기 함수를 선언합니다! (파일 로드는 시간이 걸리므로 비동기 처리)
   try {
     // 에러 처리 구문 (파일 로드가 실패할 수도 있으니까 에러처리를 해주는거에요.)
-    const response = await fetch("components/header.html");
+    const response = await fetch("/components/header.html");
     // fetch(): 파일을 가져오는 함수
     const headerHTML = await response.text();
     // await: 파일 로드가 완료될 때까지 기다림. components/header.html 파일을 요청하고 있는 것
@@ -19,7 +19,7 @@ async function loadHeader() {
 // 푸터 로드 함수
 async function loadFooter() {
   try {
-    const response = await fetch("components/footer.html");
+    const response = await fetch("/components/footer.html");
     const footerHTML = await response.text();
     document.getElementById("footer-container").innerHTML = footerHTML;
   } catch (error) {
