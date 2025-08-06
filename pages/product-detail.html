@@ -10,26 +10,38 @@
   <body>
     <div id="header-container"></div>
 
+    <h1 class="sr-only">상품 상세 페이지</h1>
     <main class="product">
-      <div class="image-box">
-        <button class="arrow left">&#8249;</button>
-        <button class="arrow right">&#8250;</button>
+      <div class="product-left">
+        <div class="image-box">
+          <button class="arrow left">&#8249;</button>
+          <button class="arrow right">&#8250;</button>
+        </div>
+        <button class="change-button">교환하기</button>
       </div>
 
-      <div class="details">
-        <small>등록일 20xx.xx.xx</small>
-        <h2>상품명</h2>
-        <div>
-          <span class="label-button">구입 가격</span>
-          <span class="label-button">구입 시기</span>
+      <div class="product-right">
+        <div class="product-info">
+          <span>등록일 20xx.xx.xx</span>
+          <h2>상품명</h2>
+          <span class="label-info">구입 가격</span>
+          <span class="label-info">구입 시기</span>
         </div>
 
-        <textarea class="text-area" placeholder="상품 설명"></textarea>
-        <textarea class="text-area" placeholder="원하는 교환 상품"></textarea>
+        <div class="info-area">
+          <span>상품 설명</span>
+          <p>상품 설명이 표시됩니다.</p>
+        </div>
+        <div class="info-area">
+          <span> 원하는 교환 상품 </span>
+          <p>원하는 교환 상품이 표시됩니다.</p>
+        </div>
 
         <div class="button-box">
-          <button class="exchange-button">교환 신청하기</button>
           <button class="chat-button">채팅하기</button>
+          <button class="like-button">
+            <img src="../images/icons/Star 2.svg" />
+          </button>
           <button class="report-button">신고</button>
         </div>
       </div>
@@ -41,8 +53,8 @@
         <span>판매자 정보</span>
       </div>
       <div class="exchange-stats">
-        교환 희망 수 : 100<br />
-        성사된 교환 수 : 99
+        <p>교환 희망 수 : 100</p>
+        <p>성사된 교환 수 : 99</p>
       </div>
     </div>
 
