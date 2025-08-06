@@ -92,3 +92,20 @@
   white-space: nowrap;
   border: 0;
 }
+
+.btn-up {
+  position: fixed;
+  top: 90%;
+  left: 95%;
+  width: 60px;
+  height: 60px;
+
+  background-image: url(../images/icons/button_up.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  background-color: transparent;
+
+  cursor: pointer;
+}
