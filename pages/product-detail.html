@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Getti - 상품 상세</title>
+
+    <link rel="stylesheet" href="../css/products.css" />
+  </head>
+  <body>
+    <div id="header-container"></div>
+
+    <main class="product">
+      <div class="image-box">
+        <button class="arrow left">&#8249;</button>
+        <button class="arrow right">&#8250;</button>
+      </div>
+
+      <div class="details">
+        <small>등록일 20xx.xx.xx</small>
+        <h2>상품명</h2>
+        <div>
+          <span class="label-button">구입 가격</span>
+          <span class="label-button">구입 시기</span>
+        </div>
+
+        <textarea class="text-area" placeholder="상품 설명"></textarea>
+        <textarea class="text-area" placeholder="원하는 교환 상품"></textarea>
+
+        <div class="button-box">
+          <button class="exchange-button">교환 신청하기</button>
+          <button class="chat-button">채팅하기</button>
+          <button class="report-button">신고</button>
+        </div>
+      </div>
+    </main>
+
+    <div class="info-box">
+      <div class="seller-info">
+        <div class="seller-avatar"></div>
+        <span>판매자 정보</span>
+      </div>
+      <div class="exchange-stats">
+        교환 희망 수 : 100<br />
+        성사된 교환 수 : 99
+      </div>
+    </div>
+
+    <div id="footer-container"></div>
+
+    <script src="/js/utils.js"></script>
+  </body>
+</html>
